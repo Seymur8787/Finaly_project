@@ -1,0 +1,41 @@
+﻿# ОС-специфические файлы
+.DS_Store             # Для macOS
+Thumbs.db             # Для Windows
+
+# Файлы, создаваемые Visual Studio
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Компилированные файлы
+*.obj
+*.o
+*.exe
+*.out
+*.dll
+*.lib
+*.pdb
+*.idb
+
+# Каталоги и файлы сборки
+Debug/
+Release/
+build/
+
+# Бинарные и кэшированные файлы
+*.log
+*.bak
+*.swp
+*.sln
+
+# CMake
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeInstall.cmake
+Makefile
+*.cmake
